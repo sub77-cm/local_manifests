@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device -->
+  <project name="android_device_samsung_matissewifi"                 path="device/samsung/matissewifi"     remote="sub" revision="cm-13.0" />
+  <project name="android_device_samsung_msm8226-common"              path="device/samsung/msm8226-common"  remote="sub" revision="cm-13.0" />
+
+  <!-- Vendor -->
+  <project name="android_vendor_samsung_matissewifi"                 path="vendor/samsung/matissewifi"     remote="sub" revision="cm-13.0" />
+
+  <!-- Kernel -->
+  <project name="android_kernel_samsung_matissewifi"                 path="kernel/samsung/matisse"         remote="sub" revision="m-caf" />  
+  <project name="android_kernel_samsung_matissewifi"                 path="kernel/samsung/matissewifi"     remote="sub" revision="cm-13.0" />
+  <project name="android_kernel_samsung_matissewifi"                 path="kernel/samsung/mondrianwifi"    remote="sub" revision="mondrianwifi" />
+  
+</manifest>
