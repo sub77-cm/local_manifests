@@ -11,6 +11,7 @@
           
   <project path=".repo/local_manifests" name="local_manifests" remote="sub" >
     <copyfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <copyfile src="colors" dest="build/colors" />
   </project>
   
 </manifest>
