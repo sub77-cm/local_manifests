@@ -6,4 +6,9 @@
           fetch="ssh://git@git.sphere.ly/matisse" />
  <remote  name="bb"
           fetch="https://bitbucket.org" />
+          
+  <project path=".repo/local_manifests" name="local_manifests" remote="sub" >
+    <copyfile src="envsetup.sh" dest="myenvsetup.sh" />
+  </project>
+  
 </manifest>
