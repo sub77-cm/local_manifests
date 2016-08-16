@@ -2,6 +2,8 @@
 <manifest>
  <remote  name="sub"
           fetch="ssh://git@github.com/sub77-cm/" />
+ <remote  name="subcm"
+          fetch="http://github.com/CyanogenMod/" />
  <remote  name="sphere"
           fetch="ssh://git@git.sphere.ly/matisse" />
  <remote  name="bb"
